@@ -1,0 +1,158 @@
+
+
+.container {
+ 
+  margin: 0 auto;
+  padding: 150px;
+  position: relative;
+  background: #f0f2f5;
+  align-items: center;
+  justify-content: center;
+ 
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 30px; 
+  color:#0866ff !important;
+}
+.fb_logo{
+  height: 110px;
+    margin: -28px;
+}
+._8eso{
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 32px;
+    
+    
+    
+}
+#pageFooter {
+  color: #737373;
+  margin: 0 auto;
+  width: 980px;
+  margin-top: 20px;
+}
+.footer-list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-between; 
+}
+
+.footer-list li {
+  margin-right:10px; 
+}
+
+.footer-links {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-between; 
+}
+
+.footer-links li {
+  margin-right: 10px; 
+}
+._sv4{
+  color: #8a8d91;;
+}
+
+.copyright {
+  margin-top: 20px; 
+  text-align: center;
+}
+span{
+  font-weight: 700;
+}
+.createpage{
+  color:black;
+}
+
+.form-group {
+  margin-bottom: 20px; 
+}
+.card {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+ 
+}
+
+input[type="email"],
+input[type="password"],
+button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+button.log[type="submit"] {
+  background-color: #0866ff;
+  border: none;
+  border-radius: 6px;
+  font-size: 20px;
+  line-height: 48px;
+  padding: 0 16px;
+  width: 100%;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 700;
+ 
+}
+button.suc[type="submit"]{
+  background-color: #42b72a;
+  width: 180px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+
+}
+.forgot-password{
+  text-align: center;
+}
+
+button.log[type="submit"]:hover {
+  background-color: #0866ff;
+}
+.footer {
+  background-color: white;
+  padding: 20px 0;
+  width: 100%;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+ 
+  
+  h1 {
+    font-size: 24px;
+  }
+  footer{
+    display: none;
+  }
+  h2{
+    display: none;
+  }
+  .fb_logo{
+    height: 60px;
+    margin: -20x;
+    
+  }
+  .logo{
+    align-items: center;
+    text-align: center;
+    
+  }
+  
+ 
+}
+
